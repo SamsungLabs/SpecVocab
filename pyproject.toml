@@ -1,0 +1,40 @@
+[project]
+name = "specvocab"
+version = "0.1.0"
+description = "SpecVocab implementation, from the paper 'Speculative Decoding with a Speculative Vocabulary' (https://arxiv.org/abs/2602.13836)."
+readme = "README.md"
+license = "CC-BY-NC-SA-4.0"
+license-files = ["LICENSE*"]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.10.1",
+    "datasets>=3.6.0",
+    "sglang",
+    "specforge",
+    "transformers[torch]>=4.53.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/SamsungLabs/SpecVocab"
+Repository = "https://github.com/SamsungLabs/SpecVocab"
+Issues = "https://github.com/SamsungLabs/SpecVocab/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.3",
+    "pandas>=2.3.1",
+    "pre-commit>=4.2.0",
+    "ruff>=0.12.7",
+    "scienceplots>=2.1.1",
+    "scikit-learn>=1.7.0",
+    "zstandard>=0.25.0",
+]
+
+[tool.uv.sources]
+sglang = { path = "sglang_fork/python", editable = true }
+specforge = { path = "specforge_fork", editable = true }

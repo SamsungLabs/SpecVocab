@@ -1,0 +1,6 @@
+[submodule "sglang_fork"]
+	path = sglang_fork
+	url = ../specvocab-sglang.git
+[submodule "specforge_fork"]
+	path = specforge_fork
+	url = ../specvocab-specforge.git
