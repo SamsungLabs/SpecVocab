@@ -1,6 +1,6 @@
 # SpecVocab
 
-This is the official repository for the paper [Speculative Decoding with a Speculative Vocabulary](https://arxiv.org/abs/2602.13836), which will appear in the Findings of ACL 2026.
+This is the official repository for the paper [Speculative Decoding with a Speculative Vocabulary](https://arxiv.org/abs/2602.13836), published in the [Findings of ACL 2026](https://aclanthology.org/2026.findings-acl.2000/).
 
 ## Abstract
 
@@ -271,14 +271,19 @@ This project builds upon the [SGLang](https://github.com/sgl-project/sglang) inf
 ## Citation
 
 ```bibtex
-@misc{williams-etal-2026-speculative,
-  title={{Speculative Decoding with a Speculative Vocabulary}}, 
-  author={Miles Williams and Young D. Kwon and Rui Li and Alexandros Kouris and Stylianos I. Venieris},
-  year={2026},
-  eprint={2602.13836},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2602.13836}, 
+@inproceedings{williams-etal-2026-speculative,
+    title = "Speculative Decoding with a Speculative Vocabulary",
+    author = "Williams, Miles and Kwon, Young D. and Li, Rui and Kouris, Alexandros and Venieris, Stylianos I.",
+    editor = "Liakata, Maria and Moreira, Viviane P. and Zhang, Jiajun and Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.2000/",
+    doi = "10.18653/v1/2026.findings-acl.2000",
+    pages = "40240--40254",
+    ISBN = "979-8-89176-395-1"
 }
 ```
 
